@@ -1,0 +1,46 @@
+{
+  "name": "namingcontest-app",
+  "version": "1.0.0",
+  "description": "Samer Buna LinkdIn tutorial video fullstack MERN",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "nodemon --exec babel-node server.js --ignore public/",
+    "dev": "webpack -w -d"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/avshetty1980/NamingContestApp.git"
+  },
+  "author": "Akshay Shetty",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/avshetty1980/NamingContestApp/issues"
+  },
+  "homepage": "https://github.com/avshetty1980/NamingContestApp#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongodb": "^3.6.2",
+    "prop-types": "^15.7.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.11.6",
+    "@babel/node": "latest",
+    "@babel/plugin-proposal-class-properties": "^7.10.4",
+    "@babel/preset-env": "^7.11.5",
+    "@babel/preset-react": "^7.10.4",
+    "babel-eslint": "^10.1.0",
+    "babel-jest": "^26.5.0",
+    "babel-loader": "^8.1.0",
+    "eslint": "^7.10.0",
+    "eslint-plugin-react": "^7.21.3",
+    "eslint-plugin-react-hooks": "^4.1.2",
+    "jest": "^26.5.0",
+    "nodemon": "^2.0.4",
+    "react-test-renderer": "^16.13.1",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12"
+  }
+}
